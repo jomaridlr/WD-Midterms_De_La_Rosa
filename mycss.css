@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.about{
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px;
+    background-image: url(crumpled-paper.JPG);
+    background-position: left;
+    background-size: cover;
+    overflow: hidden;
+    padding-left: 1%;
+}
+.about-text{
+    width: 520px;
+    padding-right: 2%;
+    position: relative;
+    right: 13vh;
+    bottom: 9vh;
+}
+.main img{
+    width: 200px;
+    height: 750;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text img{
+    width: 500px;
+    height: auto;
+}
+.about-text p{
+    color:black;
+    line-height: 28px;
+    font-size: 15;
+    text-align: center;
+    margin-bottom: 45px;
+    padding: 30px;
+}
+.contacts{
+    position: relative;
+    top: 5vh;
+}
+.contacts p{
+    position: relative;
+    margin-bottom: 1px;
+    padding: 1px;
+}
+.education p{
+    position: relative;
+    font-size: 15;
+    margin-bottom: 45px;
+    padding: 30px;
+    margin: auto;
+}
+h1{
+    color:rgb(255, 20, 147);
+    line-height: 28px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.projects img{
+    height: 410;
+    width: 300;
+    padding: 1%;
+    margin-top: 1%;
+    position: relative;
+    left: 13vh;
+}
+.projects p{
+    color:black;
+    line-height: 28px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 45px;
+    padding: 40px;
+}
+.education {
+    position: relative;
+    margin-bottom: 1px;
+    padding: 15px;
+}
+ul.navbar{
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.navbar li{
+    background-color:plum;
+   color: azure;
+    border-right:1em solid rgb(255, 20, 147);
+    font-size: 18px;
+    margin:0.5em 0;
+    padding:0.3em;
+}
+ul.navbar a{
+    text-decoration: none;
+}
+a:link{
+    color:azure;
+}
